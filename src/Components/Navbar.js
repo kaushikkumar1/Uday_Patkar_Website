@@ -18,11 +18,34 @@ export default class Navbar extends Component {
     </Link>
    
       
-      
+      <Link to="Professionals">
       <a className="nav-item nav-link " href="#">Professionals </a>
+      </Link>
+      
+      
+      <Link to="/Religious">
       <a className="nav-item nav-link" href="#">Religious</a>
-      <a className="nav-item nav-link" href="#">News</a>
-      <a className="nav-item nav-link" href="#">Gallery</a>
+      </Link>
+      
+   
+
+   <Link to="/News">
+   <a className="nav-item nav-link" href="#">News</a>
+   </Link>
+     
+   
+   
+   
+   
+   
+   <Link to="/Gallery">
+   <a className="nav-item nav-link" href="#">Gallery</a>
+   
+   </Link>
+      
+   
+   
+   
       <Link to="/About">
       <a className="nav-item nav-link" href="#">About</a>
       </Link>
